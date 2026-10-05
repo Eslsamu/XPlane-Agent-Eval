@@ -1,5 +1,9 @@
 # Treat Air Flight Agent Evaluation Harness
 
+![AI Flight Agent Evaluation: A330 cockpit alongside the Flight Control Room dashboard](docs/images/flight-agent-evaluation.png)
+
+<sub>Cover composite based on the project dashboard and X-Plane A330 imagery. Cockpit: Laminar Research, via [FSElite](https://fselite.net/content/watch-the-a330-for-x-plane-12-in-action-with-this-new-trailer/). The cockpit and recorded dashboard depict separate flights. See the evaluation report for original results.</sub>
+
 An experimental deployment and evaluation system for tool-using AI agents. It connects a language model to X-Plane through a restricted cockpit action layer, introduces a controlled change during an approach, records the resulting trajectory, and scores whether the agent completes the task safely.
 
 The demonstration uses an Airbus A330 approaching Portland International Airport. The agent starts with a normal instruction to land at KPDX. One benchmark delivers a new runway clearance during the approach. A second changes the approach wind: one episode requires a go-around in excessive tailwind, while the other requires a landing with equally strong favorable wind. These are separate flights. The [evaluation report](docs/EVALUATION.md) covers ten runway trials and thirty wind trials, including no-reasoning and low-reasoning model settings.
