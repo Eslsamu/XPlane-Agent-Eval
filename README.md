@@ -1,4 +1,4 @@
-# Treat Air Flight Agent Evaluation Harness
+# XPlane-Agent-Eval
 
 ![AI Flight Agent Evaluation: A330 cockpit alongside the Flight Control Room dashboard](docs/images/flight-agent-evaluation.png)
 
